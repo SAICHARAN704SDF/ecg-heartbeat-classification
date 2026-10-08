@@ -1,0 +1,103 @@
+{
+  "experiment": "raw-wavelet-fusion-v1",
+  "representation": {
+    "raw": true,
+    "wavelet": "db4",
+    "wavelet_level": 3
+  },
+  "accuracy": 0.9855198245934588,
+  "balanced_accuracy": 0.9048661823706393,
+  "macro_precision": 0.9341764318521966,
+  "macro_recall": 0.9048661823706393,
+  "macro_f1": 0.9188969406415705,
+  "weighted_f1": 0.9852791385989468,
+  "parameters": 105861,
+  "train_samples": 74420,
+  "validation_samples": 13134,
+  "test_samples": 21892,
+  "epochs_requested": 30,
+  "epochs_completed": 30,
+  "confusion_matrix": [
+    [
+      18025,
+      52,
+      28,
+      9,
+      4
+    ],
+    [
+      106,
+      443,
+      7,
+      0,
+      0
+    ],
+    [
+      36,
+      4,
+      1390,
+      16,
+      2
+    ],
+    [
+      22,
+      0,
+      13,
+      127,
+      0
+    ],
+    [
+      13,
+      2,
+      3,
+      0,
+      1590
+    ]
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 0.9902757938688056,
+      "recall": 0.9948669831107186,
+      "f1-score": 0.9925660792951542,
+      "support": 18118.0
+    },
+    "Supraventricular": {
+      "precision": 0.8842315369261478,
+      "recall": 0.7967625899280576,
+      "f1-score": 0.8382213812677389,
+      "support": 556.0
+    },
+    "Ventricular": {
+      "precision": 0.9646079111727967,
+      "recall": 0.9599447513812155,
+      "f1-score": 0.9622706818968502,
+      "support": 1448.0
+    },
+    "Fusion": {
+      "precision": 0.8355263157894737,
+      "recall": 0.7839506172839507,
+      "f1-score": 0.8089171974522293,
+      "support": 162.0
+    },
+    "Unknown": {
+      "precision": 0.9962406015037594,
+      "recall": 0.9888059701492538,
+      "f1-score": 0.9925093632958801,
+      "support": 1608.0
+    },
+    "accuracy": 0.9855198245934588,
+    "macro avg": {
+      "precision": 0.9341764318521966,
+      "recall": 0.9048661823706393,
+      "f1-score": 0.9188969406415705,
+      "support": 21892.0
+    },
+    "weighted avg": {
+      "precision": 0.9851777806321993,
+      "recall": 0.9855198245934588,
+      "f1-score": 0.9852791385989468,
+      "support": 21892.0
+    }
+  },
+  "random_seed": 42
+}

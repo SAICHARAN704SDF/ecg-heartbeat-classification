@@ -1,0 +1,97 @@
+{
+  "experiment": "baseline-cnn-v2-wandb",
+  "accuracy": 0.9830074913210305,
+  "balanced_accuracy": 0.8665107736680892,
+  "macro_precision": 0.9486504161752716,
+  "macro_recall": 0.8665107736680892,
+  "macro_f1": 0.9015170394818448,
+  "weighted_f1": 0.9822986242382029,
+  "confusion_matrix": [
+    [
+      18030,
+      35,
+      46,
+      3,
+      4
+    ],
+    [
+      143,
+      396,
+      12,
+      4,
+      1
+    ],
+    [
+      41,
+      2,
+      1397,
+      4,
+      4
+    ],
+    [
+      22,
+      0,
+      30,
+      109,
+      1
+    ],
+    [
+      17,
+      0,
+      3,
+      0,
+      1588
+    ]
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 0.9877828302196899,
+      "recall": 0.99514295176068,
+      "f1-score": 0.991449231530615,
+      "support": 18118.0
+    },
+    "Supraventricular": {
+      "precision": 0.9145496535796767,
+      "recall": 0.7122302158273381,
+      "f1-score": 0.8008088978766431,
+      "support": 556.0
+    },
+    "Ventricular": {
+      "precision": 0.9388440860215054,
+      "recall": 0.9647790055248618,
+      "f1-score": 0.9516348773841962,
+      "support": 1448.0
+    },
+    "Fusion": {
+      "precision": 0.9083333333333333,
+      "recall": 0.6728395061728395,
+      "f1-score": 0.7730496453900709,
+      "support": 162.0
+    },
+    "Unknown": {
+      "precision": 0.9937421777221527,
+      "recall": 0.9875621890547264,
+      "f1-score": 0.990642545227698,
+      "support": 1608.0
+    },
+    "accuracy": 0.9830074913210305,
+    "macro avg": {
+      "precision": 0.9486504161752716,
+      "recall": 0.8665107736680892,
+      "f1-score": 0.9015170394818448,
+      "support": 21892.0
+    },
+    "weighted avg": {
+      "precision": 0.9825357474715423,
+      "recall": 0.9830074913210305,
+      "f1-score": 0.9822986242382029,
+      "support": 21892.0
+    }
+  },
+  "train_samples": 74420,
+  "validation_samples": 13134,
+  "test_samples": 21892,
+  "epochs_requested": 30,
+  "epochs_completed": 30,
+  "random_seed": 42
+}

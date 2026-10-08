@@ -1,4 +1,3 @@
-cat > .gitignore <<'EOF'
 # Python
 __pycache__/
 *.py[cod]
@@ -6,24 +5,9 @@ __pycache__/
 venv/
 env/
 
-# Dataset
-*.csv
-
-# Models
-*.h5
-*.keras
-*.ckpt
-*.pth
-*.pt
-
-# Generated results
-results/
-models/
-
-# Weights & Biases
-wandb/
-.env
-
 # macOS
 .DS_Store
-EOF
+
+# W&B credentials / local W&B files
+wandb/
+.env
