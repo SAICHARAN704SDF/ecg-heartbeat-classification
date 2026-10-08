@@ -1,0 +1,29 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Dataset
+*.csv
+
+# Models
+*.h5
+*.keras
+*.ckpt
+*.pth
+*.pt
+
+# Generated results
+results/
+models/
+
+# Weights & Biases
+wandb/
+.env
+
+# macOS
+.DS_Store
+EOF
